@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		966F1A7D1AD5283E00FAE285 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A6B1AD5283E00FAE285 /* AFHTTPRequestOperation.m */; };
+		966F1A7E1AD5283E00FAE285 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A6D1AD5283E00FAE285 /* AFHTTPRequestOperationManager.m */; };
+		966F1A7F1AD5283E00FAE285 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A6F1AD5283E00FAE285 /* AFHTTPSessionManager.m */; };
+		966F1A801AD5283E00FAE285 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A721AD5283E00FAE285 /* AFNetworkReachabilityManager.m */; };
+		966F1A811AD5283E00FAE285 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A741AD5283E00FAE285 /* AFSecurityPolicy.m */; };
+		966F1A821AD5283E00FAE285 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A761AD5283E00FAE285 /* AFURLConnectionOperation.m */; };
+		966F1A831AD5283E00FAE285 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A781AD5283E00FAE285 /* AFURLRequestSerialization.m */; };
+		966F1A841AD5283E00FAE285 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A7A1AD5283E00FAE285 /* AFURLResponseSerialization.m */; };
+		966F1A851AD5283E00FAE285 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F1A7C1AD5283E00FAE285 /* AFURLSessionManager.m */; };
+		96CF02411ACAB86F008923F8 /* ForRoutingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CF02401ACAB86F008923F8 /* ForRoutingController.m */; };
 		96D0FF131AC6CA4400E95B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF121AC6CA4400E95B26 /* main.m */; };
 		96D0FF161AC6CA4400E95B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF151AC6CA4400E95B26 /* AppDelegate.m */; };
 		96D0FF191AC6CA4400E95B26 /* BookmarksMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF171AC6CA4400E95B26 /* BookmarksMap.xcdatamodeld */; };
@@ -15,6 +25,10 @@
 		96D0FF211AC6CA4400E95B26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0FF201AC6CA4400E95B26 /* Images.xcassets */; };
 		96D0FF241AC6CA4400E95B26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D0FF221AC6CA4400E95B26 /* LaunchScreen.xib */; };
 		96D0FF301AC6CA4400E95B26 /* BookmarksMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF2F1AC6CA4400E95B26 /* BookmarksMapTests.m */; };
+		96D0FF3A1AC6CB6400E95B26 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D0FF391AC6CB6400E95B26 /* MapKit.framework */; };
+		96D0FF3F1AC6E46000E95B26 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF3E1AC6E46000E95B26 /* MapAnnotation.m */; };
+		96D48E5F1AC825A900659C05 /* PopoverBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D48E5E1AC825A900659C05 /* PopoverBookmarks.m */; };
+		96D48E621AC83CAB00659C05 /* BookmarksDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D48E611AC83CAB00659C05 /* BookmarksDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		966F1A6A1AD5283E00FAE285 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		966F1A6B1AD5283E00FAE285 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		966F1A6C1AD5283E00FAE285 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		966F1A6D1AD5283E00FAE285 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		966F1A6E1AD5283E00FAE285 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		966F1A6F1AD5283E00FAE285 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		966F1A701AD5283E00FAE285 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		966F1A711AD5283E00FAE285 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		966F1A721AD5283E00FAE285 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		966F1A731AD5283E00FAE285 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		966F1A741AD5283E00FAE285 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		966F1A751AD5283E00FAE285 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		966F1A761AD5283E00FAE285 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		966F1A771AD5283E00FAE285 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		966F1A781AD5283E00FAE285 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		966F1A791AD5283E00FAE285 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		966F1A7A1AD5283E00FAE285 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		966F1A7B1AD5283E00FAE285 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		966F1A7C1AD5283E00FAE285 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		96CF023F1ACAB86F008923F8 /* ForRoutingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForRoutingController.h; sourceTree = "<group>"; };
+		96CF02401ACAB86F008923F8 /* ForRoutingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForRoutingController.m; sourceTree = "<group>"; };
 		96D0FF0D1AC6CA4300E95B26 /* BookmarksMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarksMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D0FF111AC6CA4400E95B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D0FF121AC6CA4400E95B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +77,13 @@
 		96D0FF291AC6CA4400E95B26 /* BookmarksMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookmarksMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D0FF2E1AC6CA4400E95B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96D0FF2F1AC6CA4400E95B26 /* BookmarksMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookmarksMapTests.m; sourceTree = "<group>"; };
+		96D0FF391AC6CB6400E95B26 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		96D0FF3D1AC6E46000E95B26 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		96D0FF3E1AC6E46000E95B26 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		96D48E5D1AC825A900659C05 /* PopoverBookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverBookmarks.h; sourceTree = "<group>"; };
+		96D48E5E1AC825A900659C05 /* PopoverBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverBookmarks.m; sourceTree = "<group>"; };
+		96D48E601AC83CAB00659C05 /* BookmarksDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetails.h; sourceTree = "<group>"; };
+		96D48E611AC83CAB00659C05 /* BookmarksDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D0FF3A1AC6CB6400E95B26 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +105,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966F1A691AD5283E00FAE285 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				966F1A6A1AD5283E00FAE285 /* AFHTTPRequestOperation.h */,
+				966F1A6B1AD5283E00FAE285 /* AFHTTPRequestOperation.m */,
+				966F1A6C1AD5283E00FAE285 /* AFHTTPRequestOperationManager.h */,
+				966F1A6D1AD5283E00FAE285 /* AFHTTPRequestOperationManager.m */,
+				966F1A6E1AD5283E00FAE285 /* AFHTTPSessionManager.h */,
+				966F1A6F1AD5283E00FAE285 /* AFHTTPSessionManager.m */,
+				966F1A701AD5283E00FAE285 /* AFNetworking.h */,
+				966F1A711AD5283E00FAE285 /* AFNetworkReachabilityManager.h */,
+				966F1A721AD5283E00FAE285 /* AFNetworkReachabilityManager.m */,
+				966F1A731AD5283E00FAE285 /* AFSecurityPolicy.h */,
+				966F1A741AD5283E00FAE285 /* AFSecurityPolicy.m */,
+				966F1A751AD5283E00FAE285 /* AFURLConnectionOperation.h */,
+				966F1A761AD5283E00FAE285 /* AFURLConnectionOperation.m */,
+				966F1A771AD5283E00FAE285 /* AFURLRequestSerialization.h */,
+				966F1A781AD5283E00FAE285 /* AFURLRequestSerialization.m */,
+				966F1A791AD5283E00FAE285 /* AFURLResponseSerialization.h */,
+				966F1A7A1AD5283E00FAE285 /* AFURLResponseSerialization.m */,
+				966F1A7B1AD5283E00FAE285 /* AFURLSessionManager.h */,
+				966F1A7C1AD5283E00FAE285 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		96D0FF041AC6CA4300E95B26 = {
 			isa = PBXGroup;
 			children = (
+				966F1A691AD5283E00FAE285 /* AFNetworking */,
+				96D0FF391AC6CB6400E95B26 /* MapKit.framework */,
 				96D0FF0F1AC6CA4300E95B26 /* BookmarksMap */,
 				96D0FF2C1AC6CA4400E95B26 /* BookmarksMapTests */,
 				96D0FF0E1AC6CA4300E95B26 /* Products */,
@@ -92,6 +163,14 @@
 				96D0FF221AC6CA4400E95B26 /* LaunchScreen.xib */,
 				96D0FF171AC6CA4400E95B26 /* BookmarksMap.xcdatamodeld */,
 				96D0FF101AC6CA4300E95B26 /* Supporting Files */,
+				96D0FF3D1AC6E46000E95B26 /* MapAnnotation.h */,
+				96D0FF3E1AC6E46000E95B26 /* MapAnnotation.m */,
+				96D48E5D1AC825A900659C05 /* PopoverBookmarks.h */,
+				96D48E5E1AC825A900659C05 /* PopoverBookmarks.m */,
+				96D48E601AC83CAB00659C05 /* BookmarksDetails.h */,
+				96D48E611AC83CAB00659C05 /* BookmarksDetails.m */,
+				96CF023F1ACAB86F008923F8 /* ForRoutingController.h */,
+				96CF02401ACAB86F008923F8 /* ForRoutingController.m */,
 			);
 			path = BookmarksMap;
 			sourceTree = "<group>";
@@ -222,9 +301,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966F1A851AD5283E00FAE285 /* AFURLSessionManager.m in Sources */,
+				966F1A821AD5283E00FAE285 /* AFURLConnectionOperation.m in Sources */,
+				966F1A7D1AD5283E00FAE285 /* AFHTTPRequestOperation.m in Sources */,
+				96D0FF3F1AC6E46000E95B26 /* MapAnnotation.m in Sources */,
+				966F1A7E1AD5283E00FAE285 /* AFHTTPRequestOperationManager.m in Sources */,
+				96D48E5F1AC825A900659C05 /* PopoverBookmarks.m in Sources */,
 				96D0FF191AC6CA4400E95B26 /* BookmarksMap.xcdatamodeld in Sources */,
+				966F1A7F1AD5283E00FAE285 /* AFHTTPSessionManager.m in Sources */,
 				96D0FF161AC6CA4400E95B26 /* AppDelegate.m in Sources */,
+				96CF02411ACAB86F008923F8 /* ForRoutingController.m in Sources */,
+				96D48E621AC83CAB00659C05 /* BookmarksDetails.m in Sources */,
+				966F1A811AD5283E00FAE285 /* AFSecurityPolicy.m in Sources */,
 				96D0FF1C1AC6CA4400E95B26 /* ViewController.m in Sources */,
+				966F1A831AD5283E00FAE285 /* AFURLRequestSerialization.m in Sources */,
+				966F1A801AD5283E00FAE285 /* AFNetworkReachabilityManager.m in Sources */,
+				966F1A841AD5283E00FAE285 /* AFURLResponseSerialization.m in Sources */,
 				96D0FF131AC6CA4400E95B26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +441,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BookmarksMap",
+					/Users/moser/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = BookmarksMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +460,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/BookmarksMap",
+					/Users/moser/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = BookmarksMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +528,7 @@
 				96D0FF351AC6CA4400E95B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96D0FF361AC6CA4400E95B26 /* Build configuration list for PBXNativeTarget "BookmarksMapTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +537,7 @@
 				96D0FF381AC6CA4400E95B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

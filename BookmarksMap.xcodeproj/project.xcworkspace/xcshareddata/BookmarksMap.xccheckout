@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7F759640-2438-4D60-81FF-DC727109C04D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BookmarksMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C503CFF032F572A864A5FFEF27B37750FD37D882</key>
+		<string>https://github.com/mr-moser/BookmarksMap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BookmarksMap.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C503CFF032F572A864A5FFEF27B37750FD37D882</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mr-moser/BookmarksMap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C503CFF032F572A864A5FFEF27B37750FD37D882</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C503CFF032F572A864A5FFEF27B37750FD37D882</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BookmarksMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>
