@@ -176,7 +176,6 @@
 - (void) actionSave:(UIBarButtonItem*)sender {
     [self.annotations[self.indexAnnotation] setTitle:self.textFieldForName.text];
     [self dismissViewControllerAnimated:YES completion:nil];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadTitle" object:nil];
 }
 
 - (void) actionDelete:(UIBarButtonItem*)sender {
@@ -235,7 +234,6 @@
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
         [self.annotations[self.indexAnnotation] setTitle:[self.arrayNearbyPlacesList objectAtIndex:indexPath.row]];
         self.labelName.text = [self.arrayNearbyPlacesList objectAtIndex:indexPath.row];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadTitle" object:nil];
     }
 }
 

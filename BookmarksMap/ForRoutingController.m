@@ -198,16 +198,4 @@
     [self.tableView endUpdates];
 }
 
-
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-//    
-//    MapAnnotation* annotation = [[MapAnnotation alloc] init];
-//    annotation.title = [[self.annotations objectAtIndex:indexPath.row] title];
-//    CLLocation* locationOurCoreData = (CLLocation*)[[self.annotations objectAtIndex:indexPath.row] locations];
-//    annotation.coordinate = locationOurCoreData.coordinate;
-//    
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"showRoutForAnnotation" object:annotation];
-//}
-
 @end
