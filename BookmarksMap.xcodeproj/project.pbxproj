@@ -29,6 +29,7 @@
 		96D0FF3F1AC6E46000E95B26 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0FF3E1AC6E46000E95B26 /* MapAnnotation.m */; };
 		96D48E5F1AC825A900659C05 /* PopoverBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D48E5E1AC825A900659C05 /* PopoverBookmarks.m */; };
 		96D48E621AC83CAB00659C05 /* BookmarksDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D48E611AC83CAB00659C05 /* BookmarksDetails.m */; };
+		96EF56C11AD7DCE6005F24CC /* arrow_curved_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96EF56C01AD7DCE6005F24CC /* arrow_curved_blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		96D48E5E1AC825A900659C05 /* PopoverBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverBookmarks.m; sourceTree = "<group>"; };
 		96D48E601AC83CAB00659C05 /* BookmarksDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetails.h; sourceTree = "<group>"; };
 		96D48E611AC83CAB00659C05 /* BookmarksDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetails.m; sourceTree = "<group>"; };
+		96EF56C01AD7DCE6005F24CC /* arrow_curved_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_curved_blue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		96D0FF0F1AC6CA4300E95B26 /* BookmarksMap */ = {
 			isa = PBXGroup;
 			children = (
+				96EF56C01AD7DCE6005F24CC /* arrow_curved_blue.png */,
 				96D0FF141AC6CA4400E95B26 /* AppDelegate.h */,
 				96D0FF151AC6CA4400E95B26 /* AppDelegate.m */,
 				96D0FF1A1AC6CA4400E95B26 /* ViewController.h */,
@@ -283,6 +286,7 @@
 			files = (
 				96D0FF1F1AC6CA4400E95B26 /* Main.storyboard in Resources */,
 				96D0FF241AC6CA4400E95B26 /* LaunchScreen.xib in Resources */,
+				96EF56C11AD7DCE6005F24CC /* arrow_curved_blue.png in Resources */,
 				96D0FF211AC6CA4400E95B26 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

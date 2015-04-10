@@ -224,7 +224,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString* identifier = @"Cell";
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    cell.textLabel.text = [self.arrayNearbyPlacesList objectAtIndex:indexPath.row];
+    if ([self.arrayNearbyPlacesList count] > 0) {
+        cell.textLabel.text = [self.arrayNearbyPlacesList objectAtIndex:indexPath.row];
+    }
     return cell;
 }
 

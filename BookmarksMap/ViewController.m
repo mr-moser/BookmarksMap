@@ -40,6 +40,7 @@
     self.isShowAnnotations = false;
     self.type = @"Normal";
     
+    
     UILongPressGestureRecognizer* longGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
     longGesture.minimumPressDuration = 1;
     [self.view addGestureRecognizer:longGesture];
@@ -133,7 +134,7 @@
 #pragma mark - Show Routing popover
 -  (IBAction) actionAddPopover:(UIBarButtonItem*)sender {
     ForRoutingController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ForRoutingController"];
-    vc.annotations = self.resultForSelectOutCoreData;
+    //vc.annotations = self.resultForSelectOutCoreData;
     if ([self.type isEqualToString:@"Normal"]) {
         vc.preferredContentSize = CGSizeMake(300, 500);
         UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:vc];
@@ -280,6 +281,7 @@
 - (void)mapViewDidFinishRenderingMap:(MKMapView *)mapView fullyRendered:(BOOL)fullyRendered {
     if (!self.isShowAnnotations) {
         [self loadAnnotationsOutCoreData];
+        [self showAllAnnotation:nil];
         
         self.buttonRoute.enabled = TRUE;
         self.buttonBookmarks.enabled = TRUE;
@@ -295,13 +297,23 @@
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
-    if ([annotation isKindOfClass:[MKUserLocation class]]) {
-        return nil;
-    }
+    
     static NSString* identifier = @"Annotation";
     MKPinAnnotationView* pin = (MKPinAnnotationView*)[mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+    
     if (!pin) {
         pin = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+        if ([annotation isKindOfClass:[MKUserLocation class]]) {
+            UIImage *imageArrow = [UIImage imageNamed:@"arrow_curved_blue.png"];
+//            UIImage *scaledImage =
+//            [UIImage imageWithCGImage:[imageArrow CGImage]
+//                                scale:(imageArrow.scale * 10.0)
+//                          orientation:(imageArrow.imageOrientation)];
+            
+            pin.image = imageArrow;
+            pin.canShowCallout = YES;
+            return pin;
+        }
         pin.pinColor = MKPinAnnotationColorPurple;
         pin.animatesDrop = YES;
         pin.canShowCallout = YES;

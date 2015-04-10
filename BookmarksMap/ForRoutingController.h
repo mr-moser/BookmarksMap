@@ -10,6 +10,6 @@
 
 @interface ForRoutingController : UIViewController
 
-@property (strong, nonatomic) NSMutableArray* annotations;
+//@property (strong, nonatomic) NSMutableArray* annotations;
 
 @end
